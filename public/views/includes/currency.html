@@ -1,0 +1,18 @@
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+  {{currency.symbol}} <span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+  <li>
+  <a data-ng-click="setCurrency('USD')" data-ng-class="{active: currency.symbol == 'USD'}">USD</a>
+  </li>
+  <li>
+  <a data-ng-click="setCurrency('UT')" data-ng-class="{active: currency.symbol == 'UT'}">UT</a>
+  </li>
+  <li>
+  <a data-ng-click="setCurrency('mUT')" data-ng-class="{active: currency.symbol == 'mUT'}">mUT</a>
+  </li> 
+  <li>
+  <a data-ng-click="setCurrency('uUT')" data-ng-class="{active: currency.symbol == 'uUT'}">uUT</a>
+  </li>
+</ul>
+
