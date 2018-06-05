@@ -3,24 +3,17 @@
 
 A Ulord blockchain explorer web application service for [Bitcore Node Ulord](https://github.com/UlordChain/bitcore-node-ulord) using [Insight API Ulord](https://github.com/UlordChain/insight-api-ulord).
 
-## Quick Start
+## Tutorial
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/UlordChain/bitcore-ulord).
+Please refer to [https://github.com/UlordChain/insight-ui-ulord/wiki](https://github.com/UlordChain/insight-ui-ulord/wiki), and you will know how to build a block browser.
 
-## Getting Started
-
-To manually install all of the necessary components, you can run these commands:
+## Start
 
 ```bash
-npm install -g bitcore-node-ulord
-bitcore-node-ulord create mynode
-cd mynode
-bitcore-node-ulord install insight-api-ulord
-bitcore-node-ulord install insight-ui-ulord
-bitcore-node-ulord start
+git clone https://github.com/UlordChain/insight-ui-ulord.git
 ```
 
-Open a web browser to `http://localhost:3001/insight/`
+
 
 ## Development
 
