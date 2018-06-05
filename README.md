@@ -3,7 +3,7 @@
 
 A Ulord blockchain explorer web application service for [Bitcore Node Ulord](https://github.com/UlordChain/bitcore-node-ulord) using [Insight API Ulord](https://github.com/UlordChain/insight-api-ulord).
 
-## Tutorial
+## Quick development guide
 
 Please refer to [https://github.com/UlordChain/insight-ui-ulord/wiki](https://github.com/UlordChain/insight-ui-ulord/wiki), and you will know how to build a block browser.
 
